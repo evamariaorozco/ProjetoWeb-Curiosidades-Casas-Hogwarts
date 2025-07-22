@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #1c2a3a;
+    font-family: "Montserrat", sans-serif;
+    background-image: url('/images/wallpaper1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+header {
+    background-color: #0f141de1;
+    padding: 10px;
+    margin: 10px;
+}
+
+header > p {
+    background-color: #0f141de1;
+    color: #d7e5ff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    max-width: 700px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+header > h1 {
+    font-family: "MedievalSharp", cursive;
+    font-size: 3em;
+    color: #d1ba6a;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+}
+
+header > h1:hover {
+    color: #f9f2c7;
+}
+
+nav {
+    background-color: #d1ba6a;
+    padding: 3px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.22);
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > a {
+    font-family: "Montserrat", sans-serif;
+    color: #0f141d;
+    padding: 7px;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+nav > a:hover {
+    background-color: #fbf7eb83;
+    color:#950303;
+}
+
+main {
+    background-color: #8cb3fbe1;
+    padding: 5px;
+    margin: 60px;
+    margin-top: 40px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 9px 0px #000000;
+}
+
+main p {
+    margin: 15px 30px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+main strong {
+    color: #0e1218;
+    font-weight: bold;
+}
+
+section {
+    background-color: #e0e7f565;
+    padding: 8px;
+}
+
+#casas-texto > h1 {
+    font-family: "MedievalSharp", cursive;
+    font-size: 2em;
+    color: #1c2a3a;
+    font-weight: bold;
+    text-align: center;
+}
+
+#casas-texto > p {
+    color: #0e1218;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 8px;
+    margin: 15px;
+}
+
+#casas-texto p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#casas-texto p a:hover {
+    color:#f7d828;
+}
+
+#casas-texto p a:link,
+    p a:visited {
+        color:#0d3c13;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+#casas-imagens {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#casas-imagens img {
+    width: 95%;
+    margin: 1px;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#casas-imagens img:hover {
+    transform: scale(1.05);
+}
+
+article > h2 {
+    font-family: "MedievalSharp", cursive;
+    font-size: 2em;
+    text-align: center;
+    background-color:#1c2a3a;
+    color: #d1ba6a;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+section {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#grifinoria img {
+    max-width: 100%;
+    height: auto;
+}
+
+#lufalufa img {
+    max-width: 100%;
+    height: auto;
+}
+
+#corvinal img {
+    max-width: 100%;
+    height: auto;
+}
+
+#sonserina img {
+    max-width: 80%;
+    height: auto;
+}
+
+div.video {
+    background-color:#d1ba6a;
+    border-radius: 0px 0px 5px 5px;
+    margin: 0px -5px 0px -5px;
+    margin-bottom: -5px;
+    padding: 10px;
+    padding-bottom: 41%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    width: 60%;
+    height: 80%;
+}
+
+div.video h1 {
+    font-family: "MedievalSharp", cursive;
+    font-size: 3em;
+    color:#0d3c13;
+    text-align: center;
+    transition: color 0.3s ease-in-out;
+}
+
+footer {
+    font-size: 1em;
+    font-family: "MedievalSharp", cursive;
+    background-color: #0f141d;
+    color: #A6955A;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 4px;
+}
+
+footer > p a {
+    color: #d1ba6a;
+    text-decoration: none;
+}
+
+footer > p a:link,
+    p a:visited {
+        color:#d1ba6a;
+        text-decoration: none;
+        font-weight: bold;
+    }
