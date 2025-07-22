@@ -8,7 +8,7 @@ body {
     background-color: #1c2a3a;
     font-family: "Montserrat", sans-serif;
     background-image: url('/images/wallpaper2.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: fixed;
     background-position: center center;
     overflow-x: hidden; /* Evita rolagem horizontal indesejada */
