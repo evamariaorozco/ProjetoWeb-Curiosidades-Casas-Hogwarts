@@ -173,7 +173,7 @@ section {
 }
 
 div.video {
-    background-color:#d1ba6a;
+    background-color: #1c2a3a;
     border-radius: 0px 0px 5px 5px;
     margin: 0px -10px -10px -10px; /* Margens negativas para esticar até a borda do main */
     position: relative;
